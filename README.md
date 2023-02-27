@@ -19,7 +19,7 @@ Here are some ideas to get you started:
  
  
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=parksubeom&show_icons=true&theme=cobalt2)<a href="s">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dkssud8150&exclude_repo=dkssud8150.github.io&layout=compact&theme=tokyonight" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=parksubeom&exclude_repo==parksubeom.github.io&layout=compact&theme=tokyonight" />
 </a>  </div>
  
 
