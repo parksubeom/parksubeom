@@ -16,8 +16,9 @@ Here are some ideas to get you started:
 -->
 ![header](https://capsule-render.vercel.app/api?type=shark&color=auto&height=300&section=header&text=Bumpist%20Github&fontSize=90) 
 <div align="center"><h2 id='1'> 🙋‍♂️ Introduction🙋‍♂️  </h2></div>
-<div align="center"> 세상 그 무엇보다 내가 한 행위에 대해 가장 신속하고 직관적이게 피드백을주는  
-Frontend를 좋아합니다.  뛰어난 실력은 아니지만, 어제의 나보다, 한달전에 나보다 나은 사람이 되도록 노력합니다.</div>
+<div align="center"><h3 id='1'> 세상 그 무엇보다 내가 한 행위에 대해 가장 신속하고 직관적이게 피드백을주는  
+Frontend를 좋아합니다.  
+ 뛰어난 실력은 아니지만, 어제의 나보다, 한달전에 나보다 나은 사람이 되도록 노력합니다.</h3></div>
 
 <div align="center"><h3 id='1'> 🐣 Frontend Skill 🐣 </h3></div>
 
