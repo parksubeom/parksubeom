@@ -12,10 +12,8 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
- <img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=React&logoColor=white"/>
- <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=JavaScript&logoColor=white"/>
- <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=HTML5&logoColor=white"/>
- <img src="https://img.shields.io/badge/PHP-777BB4?style=flat&logo=PHP5&logoColor=white"/>
+ <img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=React&logoColor=white"/><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=JavaScript&logoColor=white"/><img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=HTML5&logoColor=white"/><img src="https://img.shields.io/badge/PHP-777BB4?style=flat&logo=PHP5&logoColor=white"/>
+ 
  
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=parksubeom&show_icons=true&theme=cobalt2)  
 
