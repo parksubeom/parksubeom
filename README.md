@@ -28,7 +28,7 @@ Here are some ideas to get you started:
  <br>
  직접 해보는것을 선호합니다.</h5></div>
 
-<div align="center"><h3 id='1'> 🐣 Frontend Skill 🐣 </h3></div>
+<div align="center"><h2 id='1'> 🐣 Frontend Skill 🐣 </h2></div>
 
 <div align="center"><img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=React&logoColor=white"/>  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=JavaScript&logoColor=white"/>  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=HTML5&logoColor=white"/>  <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=CSS3&logoColor=white"/>  <img src="https://img.shields.io/badge/PHP-777BB4?style=flat&logo=PHP&logoColor=white"/>  <img src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=Node.js&logoColor=white"/>  <img src="https://img.shields.io/badge/Figma-F24E1E?style=flat&logo=Figma&logoColor=white"/>
  
