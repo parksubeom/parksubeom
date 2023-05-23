@@ -36,26 +36,26 @@ Here are some ideas to get you started:
 
 ```javascript
 const Bumpist_stacks = stack => {
-  switch (stack) {
-    case 개발_언어🦾:
-      return `Javascript, Typescript`;
-
-    case 개발_환경👩‍💻:
-      return `NPM, Webpack, Babel, ESLint`;
-
-    case Front_End🦿:
-      return `React, Recoil, Styled-Components, Webpack`;
-
-    case Back_End💫:
-      return `NodeJS, ExpressJS`;
-
-    case Deploy🧐:
-      return  S3, Git-pages,`;
-
-    default🤙:
-      return `Github, Notion, Slack, Tstory`;
-  }
-};
+    switch (stack) {
+       case 개발_언어🦾:
+         return `Javascript, Typescript`;
+   
+       case 개발_환경👩‍💻:
+         return `NPM, Webpack, Babel, ESLint`;
+   
+       case Front_End🦿:
+         return `React, Recoil, Styled-Components, Webpack`;
+   
+       case Back_End💫:
+         return `NodeJS, ExpressJS`;
+   
+       case Deploy🧐:
+         return  S3, Git-pages,`;
+   
+       default🤙:
+         return `Github, Notion, Slack, Tstory`;
+     }
+   };
 ```
 
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=parksubeom&show_icons=true&theme=cobalt2)<a href="s">
