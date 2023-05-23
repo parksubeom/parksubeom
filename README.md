@@ -31,25 +31,25 @@ Here are some ideas to get you started:
 <div align="center"><h2 id='1'> 🐣 Frontend Skill 🐣 </h2></div>
 
 ```
-const Gil_stacks = stack => {
+const Bumpist_stacks = stack => {
   switch (stack) {
-    case 개발_언어:
+    case 개발_언어🦾:
       return `Javascript, Typescript`;
 
-    case 개발_환경:
-      return `NPM, Webpack, Babel, ESLint, Jest`;
+    case 개발_환경👩‍💻:
+      return `NPM, Webpack, Babel, ESLint`;
 
-    case Front_End:
-      return `React, Redux, Styled-Components, Webpack`;
+    case Front_End🦿:
+      return `React, Recoil, Styled-Components, Webpack`;
 
-    case Back_End:
-      return `NodeJS, ExpressJS, NestJS, Sequelize, MySQL, MongoDB`;
+    case Back_End💫:
+      return `NodeJS, ExpressJS`;
 
-    case Deploy:
-      return `EC2, S3, RDS, Route53`;
+    case Deploy🧐:
+      return  S3, Git-pages,`;
 
-    default:
-      return `Github, Notion, Slack, Velog`;
+    default🤙:
+      return `Github, Notion, Slack, Tstory`;
   }
 };
 ```
