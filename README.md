@@ -51,7 +51,7 @@ const Bumpist_stacks = stack => {
          return `NodeJS, ExpressJS`;
    
        case Deploy🧐:
-         return  S3, Git-pages,`;
+         return  `S3, Git-pages,`;
    
        default🤙:
          return `Github, Notion, Slack, Tstory`;
