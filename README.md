@@ -35,6 +35,7 @@ Here are some ideas to get you started:
  <br>
 
 ```javascript
+ 
 const Bumpist_stacks = stack => {
     switch (stack) {
        case 개발_언어🦾:
@@ -56,6 +57,7 @@ const Bumpist_stacks = stack => {
          return `Github, Notion, Slack, Tstory`;
      }
    };
+ 
 ```
 
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=parksubeom&show_icons=true&theme=cobalt2)<a href="s">
