@@ -57,9 +57,9 @@ const Bumpist_stacks = stack => {
          return `Github, Notion, Slack, Tstory`;
      }
    };
- 
+ {: .text-left }
 ```
-
+{: .text-left }
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=parksubeom&show_icons=true&theme=cobalt2)<a href="s">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=parksubeom&exclude_repo=Project_RetroAnimal_Generator.github.io&layout=compact&theme=cobalt2" />
 </a>  </div>
