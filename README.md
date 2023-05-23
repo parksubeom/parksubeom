@@ -29,7 +29,29 @@ Here are some ideas to get you started:
  직접 해보는것을 선호합니다.</h5></div>
 
 <div align="center"><h2 id='1'> 🐣 Frontend Skill 🐣 </h2></div>
+```
+const Gil_stacks = stack => {
+  switch (stack) {
+    case 개발_언어:
+      return `Javascript, Typescript`;
 
+    case 개발_환경:
+      return `NPM, Webpack, Babel, ESLint, Jest`;
+
+    case Front_End:
+      return `React, Redux, Styled-Components, Webpack`;
+
+    case Back_End:
+      return `NodeJS, ExpressJS, NestJS, Sequelize, MySQL, MongoDB`;
+
+    case Deploy:
+      return `EC2, S3, RDS, Route53`;
+
+    default:
+      return `Github, Notion, Slack, Velog`;
+  }
+};
+```
 <div align="center"><img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=React&logoColor=white"/>  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=JavaScript&logoColor=white"/> <img src="https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white" />    <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=CSS3&logoColor=white"/>   <img src="https://img.shields.io/badge/styled--components-DB7093?style=flat&logo=styled-components&logoColor=white">  <img src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=Node.js&logoColor=white"/>  <img src="https://img.shields.io/badge/Figma-F24E1E?style=flat&logo=Figma&logoColor=white"/>
  
  <br>
