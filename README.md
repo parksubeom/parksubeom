@@ -34,7 +34,7 @@ Here are some ideas to get you started:
  
  <br>
 
-```
+```javascript
 const Bumpist_stacks = stack => {
   switch (stack) {
     case 개발_언어🦾:
