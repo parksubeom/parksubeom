@@ -45,13 +45,13 @@ const Bumpist_stacks = stack => {
          return `NPM, Webpack, Babel, ESLint`;
    
        case Front_End🦿:
-         return `React, Recoil, Styled-Components, Webpack`;
+         return `React,Next.js, Recoil, Styled-Components, tailwind, Webpack`;
    
        case Back_End💫:
          return `NodeJS, ExpressJS`;
    
        case Deploy🧐:
-         return  `S3, Git-pages,`;
+         return  `S3, Git-pages,vercel`;
    
        default🤙:
          return `Github, Notion, Slack, Tstory`;
