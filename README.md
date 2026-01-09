@@ -1,64 +1,77 @@
-<div align="center"><h1 id='1'> 🐅🐆 Welcome Bum World 🐅🐆 </h1></div>
+<div align="center">
+  <h1>Hi, I'm Subeom Park 👋</h1>
+  <h3>Frontend Developer & Web Accessibility Specialist</h3>
+  <p>
+    사용자의 목소리에 집착하고, 데이터로 문제를 증명하며, 실질적인 가치를 만드는 개발자입니다.<br>
+    <b>"누구나 사용할 수 있는 포용적인 웹"</b>을 지향하며 기술의 본질(Deep Dive)을 탐구합니다.
+  </p>
+  
+  <br/>
 
-<!--
-**parksubeom/parksubeom** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+  <a href="mailto:sooknise@naver.com">
+    <img src="https://img.shields.io/badge/Email-sooknise%40naver.com-d14836?style=flat-square&logo=gmail&logoColor=white" alt="Email"/>
+  </a>
+  <a href="https://your-blog-url.com">
+    <img src="https://img.shields.io/badge/Blog-Tech%20Log-20C20E?style=flat-square&logo=tistory&logoColor=white" alt="Blog"/>
+  </a>
+</div>
 
-Here are some ideas to get you started:
+<br/>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
-![header](https://capsule-render.vercel.app/api?type=shark&color=auto&height=300&section=header&text=Bumpist%20Github&fontSize=90) 
-<div align="center"><h2 id='1'> 🙋‍♂️ Introduction🙋‍♂️  </h2></div>
-<div align="center"><h5 id='1'> 세상 그 무엇보다 내가 한 행위에 대해 가장 신속하고 직관적이게
- <br>
- 피드백을주는 Frontend를 좋아합니다.
- <br>
- 뛰어난 실력은 아니지만, 어제의 나보다,
- <br>
- 한달전에 나보다 나은 사람이 되도록 노력합니다.
- <br>
- 읽고 듣는것보다
- <br>
- 직접 해보는것을 선호합니다.</h5></div>
+## 🚀 About Me
 
-<div align="center"><h2 id='1'> 🐣 Frontend Skill 🐣 </h2></div>
+단순히 기능을 구현하는 것을 넘어, **'왜(Why)'**를 질문하며 비즈니스 임팩트를 고민합니다. 웹 접근성 컨설팅 경험을 바탕으로 다양한 환경의 사용자를 고려하는 견고한 인터페이스를 설계합니다.
 
-<div align="center"><img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=React&logoColor=white"/>  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=JavaScript&logoColor=white"/> <img src="https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white" />    <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=CSS3&logoColor=white"/>   <img src="https://img.shields.io/badge/styled--components-DB7093?style=flat&logo=styled-components&logoColor=white">  <img src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=Node.js&logoColor=white"/>  <img src="https://img.shields.io/badge/Figma-F24E1E?style=flat&logo=Figma&logoColor=white"/>
-</div> 
- <br>
+- ♿ **Web Accessibility:** WCAG 2.1/2.2 및 KWCAG 표준을 준수하며, 스크린 리더 사용성을 고려한 마크업을 설계합니다.
+- 🏗️ **Architecture:** FSD(Feature-Sliced Design) 아키텍처와 관심사의 분리(SoC)를 통해 유지보수 가능한 코드를 작성합니다.
+- ⚡ **Performance:** 렌더링 최적화와 리소스 관리를 통해 사용자 경험(UX)을 개선합니다.
+- 🔍 **Deep Dive:** React의 내부 동작 원리(Virtual DOM, Reconciliation)를 직접 구현하며 학습했습니다.
 
-```javascript
- 
-const Bumpist_stacks = stack => {
-    switch (stack) {
-       case 개발_언어🦾:
-         return `Javascript, Typescript`;
-   
-       case 개발_환경👩‍💻:
-         return `NPM, Webpack, Babel, ESLint`;
-   
-       case Front_End🦿:
-         return `React,Next.js, Recoil, Styled-Components, tailwind, Webpack`;
-   
-       case Back_End💫:
-         return `NodeJS, ExpressJS`;
-   
-       case Deploy🧐:
-         return  `S3, Git-pages,vercel`;
-   
-       default🤙:
-         return `Github, Notion, Slack, Tstory`;
-     }
-   };
+<br/>
 
-```
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=parksubeom&show_icons=true&theme=cobalt2)<a href="s">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=parksubeom&exclude_repo=ticat-client.github.io&layout=compact&theme=cobalt2" />
-</a> 
+## 🛠 Tech Stack
+
+| Category | Technologies |
+| --- | --- |
+| **Language** | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) |
+| **Frontend** | ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black) ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white) ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white) |
+| **Styling** | ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white) ![Styled Components](https://img.shields.io/badge/styled--components-DB7093?style=flat-square&logo=styled-components&logoColor=white) |
+| **State Mgt** | ![Zustand](https://img.shields.io/badge/Zustand-443E38?style=flat-square) ![Recoil](https://img.shields.io/badge/Recoil-3578E5?style=flat-square&logo=recoil&logoColor=white) ![TanStack Query](https://img.shields.io/badge/TanStack_Query-FF4154?style=flat-square&logo=react-query&logoColor=white) |
+| **Tooling** | ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white) |
+| **Testing** | ![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=flat-square&logo=vitest&logoColor=white) ![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white) |
+
+<br/>
+
+## 💼 Work Experience
+
+#### (주)에스앤씨랩 | Web Accessibility Consultant & Developer
+_2024.07 - Present_
+> 금융 및 공공기관 엔터프라이즈 프로젝트의 웹 접근성 진단 및 개선 개발을 담당했습니다.
+- **Developer Experience 혁신:** 개발자 친화적 가이드라인 배포로 재작업률 30% 감소
+- **접근성 인증 마크 획득:** 저축은행중앙회, 신협 온뱅크 등 주요 금융권 앱 접근성 품질 인증(WA) 심사 대응 및 획득 리딩
+- **Global Standard 연구:** WCAG 2.2 및 3.0 명세를 분석하여 사내 지식 베이스 구축
+
+#### 널리소프트(SSEM) | Frontend Developer
+_2024.03 - 2024.07_
+> 세금 신고 플랫폼 SSEM의 홈페이지 리뉴얼 및 사내 운영 시스템을 개발했습니다.
+- **Legacy 청산:** 2016년부터 누적된 레거시 CSS 및 jQuery 코드를 React 및 반응형 웹으로 전면 리뉴얼
+- **배포 프로세스 자동화:** SVN API 연동 및 배포 승인 시스템 구축으로 배포 준비 시간 단축 (3일 → 실시간)
+
+<br/>
+
+## 🧩 Key Projects
+
+| Project | Description | Stack |
+| :--- | :--- | :--- |
+| **나만의 React 만들기** | **Virtual DOM 및 Hook 시스템 직접 구현**<br>React의 동작 원리(Reconciliation, Fiber Architecture)를 이해하기 위해 라이브러리 없이 바닐라 TS로 구현 | `TypeScript` `Vite` |
+| **웹 성능 최적화** | **Vanilla JS 기반 SSR/SSG 구현 및 최적화**<br>비트마스크 연산을 통한 필터링 속도 개선, LCP 최적화 및 Lighthouse 성능 점수 개선 | `Vanilla JS` `Node.js` |
+| **FSD Architecture** | **기능 중심 아키텍처(FSD) 도입**<br>관심사의 분리(SoC)를 통한 유지보수성 향상 및 비즈니스 로직과 UI의 명확한 격리 | `React` `Zustand` |
+
+<br/>
+
+## 📈 GitHub Stats
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=parksubeom&show_icons=true&theme=transparent&hide_border=true&title_color=007ACC&text_color=666&icon_color=007ACC" height="150" alt="stats graph" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=parksubeom&layout=compact&theme=transparent&hide_border=true&title_color=007ACC&text_color=666" height="150" alt="languages graph" />
+</div>
