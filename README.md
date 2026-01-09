@@ -58,12 +58,3 @@ _2024.03 - 2024.07_
 - **배포 프로세스 자동화:** SVN API 연동 및 배포 승인 시스템 구축으로 배포 준비 시간 단축 (3일 → 실시간)
 
 <br/>
-
-## 🧩 Key Projects
-
-| Project | Description | Stack |
-| :--- | :--- | :--- |
-| **나만의 React 만들기** | **Virtual DOM 및 Hook 시스템 직접 구현**<br>React의 동작 원리(Reconciliation, Fiber Architecture)를 이해하기 위해 라이브러리 없이 바닐라 TS로 구현 | `TypeScript` `Vite` |
-| **웹 성능 최적화** | **Vanilla JS 기반 SSR/SSG 구현 및 최적화**<br>비트마스크 연산을 통한 필터링 속도 개선, LCP 최적화 및 Lighthouse 성능 점수 개선 | `Vanilla JS` `Node.js` |
-| **FSD Architecture** | **기능 중심 아키텍처(FSD) 도입**<br>관심사의 분리(SoC)를 통한 유지보수성 향상 및 비즈니스 로직과 UI의 명확한 격리 | `React` `Zustand` |
-
