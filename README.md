@@ -67,11 +67,3 @@ _2024.03 - 2024.07_
 | **웹 성능 최적화** | **Vanilla JS 기반 SSR/SSG 구현 및 최적화**<br>비트마스크 연산을 통한 필터링 속도 개선, LCP 최적화 및 Lighthouse 성능 점수 개선 | `Vanilla JS` `Node.js` |
 | **FSD Architecture** | **기능 중심 아키텍처(FSD) 도입**<br>관심사의 분리(SoC)를 통한 유지보수성 향상 및 비즈니스 로직과 UI의 명확한 격리 | `React` `Zustand` |
 
-<br/>
-
-## 📈 GitHub Stats
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=parksubeom&show_icons=true&theme=transparent&hide_border=true&title_color=007ACC&text_color=666&icon_color=007ACC" height="150" alt="stats graph" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=parksubeom&layout=compact&theme=transparent&hide_border=true&title_color=007ACC&text_color=666" height="150" alt="languages graph" />
-</div>
