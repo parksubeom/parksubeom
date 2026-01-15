@@ -11,7 +11,7 @@
   <a href="mailto:sooknise@naver.com">
     <img src="https://img.shields.io/badge/Email-sooknise%40naver.com-d14836?style=flat-square&logo=gmail&logoColor=white" alt="Email"/>
   </a>
-  <a href="https://your-blog-url.com">
+  <a href="https://subeomdev.vercel.app/blog">
     <img src="https://img.shields.io/badge/Blog-Tech%20Log-20C20E?style=flat-square&logo=tistory&logoColor=white" alt="Blog"/>
   </a>
 </div>
