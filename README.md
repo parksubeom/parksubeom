@@ -2,7 +2,7 @@
   <h1>프론트엔드 개발자 박수범</h1>
   <p>
     <b>Frontend Engineer | Web Accessibility Specialist</b><br>
-    "비즈니스 문제를 기술로 증명하고, 엔지니어링으로 해결합니다."
+    "기술의 본질을 탐구하여 비즈니스의 가치를 높이고, 포용적인 인터페이스로 누구나 소외 없는 웹을 만듭니다."
   </p>
 
   <a href="https://subeomdev.vercel.app/blog"><img src="https://img.shields.io/badge/Tech_Log-20C20E?style=for-the-badge&logo=tistory&logoColor=white" alt="Blog"/></a>
