@@ -1,31 +1,37 @@
 <div align="center">
   <h1>Hi, I'm Subeom Park 👋</h1>
-  <h3>Frontend Developer & Web Accessibility Specialist</h3>
   <p>
-    사용자의 목소리에 집착하고, 데이터로 문제를 증명하며, 실질적인 가치를 만드는 개발자입니다.<br>
-    <b>"누구나 사용할 수 있는 포용적인 웹"</b>을 지향하며 기술의 본질(Deep Dive)을 탐구합니다.
+    <b>"단순 구현을 넘어, 비즈니스 임팩트를 엔지니어링으로 증명합니다."</b><br>
+    사용자의 불편함을 데이터로 진단하고, <b>웹 표준과 자동화</b>를 통해 실질적인 가치를 만드는 개발자입니다.<br>
+    Deep Dive를 통해 기술의 본질을 탐구하며, <b>"누구나 소외되지 않는 포용적인 웹"</b>을 설계합니다.
   </p>
-  
-  <br/>
-
-  <a href="mailto:sooknise@naver.com">
-    <img src="https://img.shields.io/badge/Email-sooknise%40naver.com-d14836?style=flat-square&logo=gmail&logoColor=white" alt="Email"/>
-  </a>
-  <a href="https://subeomdev.vercel.app/blog">
-    <img src="https://img.shields.io/badge/Blog-Tech%20Log-20C20E?style=flat-square&logo=tistory&logoColor=white" alt="Blog"/>
-  </a>
 </div>
 
 <br/>
 
-## 🚀 About Me
+## 🛠 Top Capabilities
 
-단순히 기능을 구현하는 것을 넘어, **'왜(Why)'** 를 질문하며 비즈니스 임팩트를 고민합니다. 웹 접근성 컨설팅 경험을 바탕으로 다양한 환경의 사용자를 고려하는 견고한 인터페이스를 설계합니다.
+- **Deep Dive & Problem Solving**: [cite_start]React의 내부 동작 원리를 직접 구현하며 학습하고[cite: 512], [cite_start]항해 플러스 4주 연속 Best Practice(총 5회)에 선정될 만큼 기술 습득과 적용에 집요합니다.
+- **Business Impact**: [cite_start]배포 자동화 시스템 구축으로 리드타임을 3일에서 실시간으로 단축하고[cite: 516, 554], [cite_start]컨설팅 가이드라인 표준화로 재작업률을 50% 감소시킨 경험이 있습니다[cite: 515, 529].
+- **Accessibility Specialist**: [cite_start]금융·공공 엔터프라이즈 프로젝트의 접근성 인증(WA) 심사를 리딩하며[cite: 532, 536], [cite_start]스크린 리더 사용성까지 고려한 견고한 마크업을 설계합니다[cite: 518, 586].
 
-- ♿ **Web Accessibility:** WCAG 2.1/2.2 및 KWCAG 표준을 준수하며, 스크린 리더 사용성을 고려한 마크업을 설계합니다.
-- 🏗️ **Architecture:** FSD(Feature-Sliced Design) 아키텍처와 관심사의 분리(SoC)를 통해 유지보수 가능한 코드를 작성합니다.
-- ⚡ **Performance:** 렌더링 최적화와 리소스 관리를 통해 사용자 경험(UX)을 개선합니다.
-- 🔍 **Deep Dive:** React의 내부 동작 원리(Virtual DOM, Reconciliation)를 직접 구현하며 학습했습니다.
+<br/>
+
+## 💼 Work Experience
+
+### **(주)에스앤씨랩** | Web Accessibility Consultant & Developer
+_2024.07 - Present_
+> **금융 및 공공기관 엔터프라이즈 프로젝트의 웹 접근성 진단 및 개선**
+- **협업 프로세스 혁신**: [cite_start]개발자 친화적 가이드라인 배포로 재작업 발생률 100% → 50% 감소 [cite: 515, 529]
+- **접근성 품질 인증(WA) 리딩**: [cite_start]저축은행중앙회, 신협 온뱅크, CJ CGV 등 주요 금융권 프로젝트 심사 대응 및 인증 획득 [cite: 533, 536, 538]
+- **표준 연구**: [cite_start]WCAG 2.2 및 3.0(Silver) 명세 분석을 통한 사내 기술 지식 베이스 구축 [cite: 541, 543]
+
+### **널리소프트(SSEM)** | Frontend Developer
+_2024.03 - 2024.07_
+> **세금 신고 플랫폼 SSEM 홈페이지 리뉴얼 및 운영 시스템 개발**
+- **배포 자동화 시스템 구축**: [cite_start]SVN API 연동으로 배포 준비 시간 3일 → 실시간 단축 및 휴먼 에러 100% 차단 [cite: 516, 554, 555]
+- **레거시 청산**: [cite_start]jQuery 기반 레거시 코드를 순수 함수로 리팩토링하여 코드 라인 수 27% 감소 [cite: 562, 564]
+- **반응형 웹 구현**: [cite_start]360px~2580px 해상도에 대응하는 반응형 리뉴얼로 일관된 UI/UX 확보 [cite: 560, 565]
 
 <br/>
 
@@ -33,28 +39,23 @@
 
 | Category | Technologies |
 | --- | --- |
-| **Language** | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) |
-| **Frontend** | ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black) ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white) ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white) |
-| **Styling** | ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white) ![Styled Components](https://img.shields.io/badge/styled--components-DB7093?style=flat-square&logo=styled-components&logoColor=white) |
-| **State Mgt** | ![Zustand](https://img.shields.io/badge/Zustand-443E38?style=flat-square) ![Recoil](https://img.shields.io/badge/Recoil-3578E5?style=flat-square&logo=recoil&logoColor=white) ![TanStack Query](https://img.shields.io/badge/TanStack_Query-FF4154?style=flat-square&logo=react-query&logoColor=white) |
-| **Tooling** | ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white) |
-| **Testing** | ![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=flat-square&logo=vitest&logoColor=white) ![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white) |
+| **Languages** | TypeScript, JavaScript (ES6+) |
+| **Frontend** | React, Next.js, HTML5, CSS3 |
+| **State Mgt** | Zustand, TanStack Query, Recoil |
+| **Styling** | Tailwind CSS (CVA), Styled Components, Emotion |
+| **Testing** | Playwright, Vitest, Jest |
+| **Specialty** | **Web Accessibility** (WCAG 2.1/2.2, KWCAG) |
 
 <br/>
 
-## 💼 Work Experience
-
-#### (주)에스앤씨랩 | Web Accessibility Consultant & Developer
-_2024.07 - Present_
-> 금융 및 공공기관 엔터프라이즈 프로젝트의 웹 접근성 진단 및 개선 개발을 담당했습니다.
-- **Developer Experience 혁신:** 개발자 친화적 가이드라인 배포로 재작업률 30% 감소
-- **접근성 인증 마크 획득:** 저축은행중앙회, 신협 온뱅크 등 주요 금융권 앱 접근성 품질 인증(WA) 심사 대응 및 획득 리딩
-- **Global Standard 연구:** WCAG 2.2 및 3.0 명세를 분석하여 사내 지식 베이스 구축
-
-#### 널리소프트(SSEM) | Frontend Developer
-_2024.03 - 2024.07_
-> 세금 신고 플랫폼 SSEM의 홈페이지 리뉴얼 및 사내 운영 시스템을 개발했습니다.
-- **Legacy 청산:** 2016년부터 누적된 레거시 CSS 및 jQuery 코드를 React 및 반응형 웹으로 전면 리뉴얼
-- **배포 프로세스 자동화:** SVN API 연동 및 배포 승인 시스템 구축으로 배포 준비 시간 단축 (3일 → 실시간)
+## 🔗 Contact & Links
+- **Email:** sooknise@naver.com
+- **Blog:** [수범의 Tech Log](https://subeomdev.vercel.app/blog)
+- **GitHub:** [Subeom's GitHub](https://github.com/parksubeom)
+- **Portfolio:** [Web PortFolio](https://subeomdev.vercel.app/)
 
 <br/>
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=parksubeom&show_icons=true&theme=transparent" alt="Subeom's GitHub Stats" />
+</div>
