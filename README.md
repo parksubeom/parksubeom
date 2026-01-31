@@ -7,7 +7,6 @@
 <div align="left">
   <a href="https://subeomdev.vercel.app/blog"><img src="https://img.shields.io/badge/Tech_Log-20C20E?style=for-the-badge&logo=tistory&logoColor=white" alt="Blog"/></a>
   <a href="https://subeomdev.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-443E38?style=for-the-badge&logo=react&logoColor=white" alt="Portfolio"/></a>
-  <a href="mailto:sooknise@naver.com"><img src="https://img.shields.io/badge/Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
 </div>
 
 ---
@@ -61,12 +60,4 @@
 ### Quality & Tools
 ![Web Accessibility](https://img.shields.io/badge/Web_Accessibility-A11Y-blue?style=flat-square) ![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=flat-square&logo=figma&logoColor=white)
 
----
 
-## 📫 Contact
-
-이러한 저의 엔지니어링 철학이 팀의 성장에 어떻게 기여할 수 있을지 함께 이야기 나누고 싶습니다.
-
-- **Email**: sooknise@naver.com
-- **Blog**: [subeomdev.vercel.app/blog](https://subeomdev.vercel.app/blog)
-- **GitHub**: [github.com/parksubeom](https://github.com/parksubeom)
