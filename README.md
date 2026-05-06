@@ -13,13 +13,19 @@
 
 Open VSX Registry에 게시한 오픈소스 익스텐션입니다. VSCode, Cursor, VSCodium 등 Open VSX 호환 IDE에서 사용할 수 있습니다.
 
-- 게시 페이지: https://open-vsx.org/extension/parksubeom/claude-skills-panel
-- Publisher: `parksubeom.claude-skills-panel`
-
-<!-- 메인 트리뷰 스크린샷 -->
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/991ed8c0-8c8b-4736-aa57-c5d7e2032bbc" alt="Claude Skills Panel 메인 트리뷰" width="720"/>
+  <a href="https://open-vsx.org/extension/parksubeom/claude-skills-panel">
+    <img src="https://img.shields.io/open-vsx/v/parksubeom/claude-skills-panel?style=for-the-badge&label=Open%20VSX&color=c160ef&logo=eclipseide&logoColor=white" alt="Open VSX Version"/>
+  </a>
+  <a href="https://open-vsx.org/extension/parksubeom/claude-skills-panel">
+    <img src="https://img.shields.io/open-vsx/dt/parksubeom/claude-skills-panel?style=for-the-badge&label=Downloads&color=20C20E" alt="Downloads"/>
+  </a>
+  <a href="https://open-vsx.org/extension/parksubeom/claude-skills-panel">
+    <img src="https://img.shields.io/badge/Install-Open%20VSX에서%20설치-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="Install"/>
+  </a>
 </p>
+
+> **▶ [Open VSX에서 바로 설치하기](https://open-vsx.org/extension/parksubeom/claude-skills-panel)** &nbsp;·&nbsp; Publisher: `parksubeom.claude-skills-panel`
 
 **해결한 문제**
 
@@ -31,10 +37,16 @@ Anthropic이 발표한 Claude Skills(SKILL.md 기반 작업별 지침 모음)는
 - frontmatter의 `name`/`description`을 트리뷰 tooltip에 자동 표시
 - 디바운스된 파일 워처로 외부 스킬 추가/삭제를 실시간 반영
 
-<!-- 토글 동작 스크린샷 -->
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/1664892d-942e-4c51-80d8-93fc7d471c95" alt="스킬 토글 동작" width="720"/>
-</p>
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <img src="https://github.com/user-attachments/assets/1664892d-942e-4c51-80d8-93fc7d471c95" alt="스킬 토글 동작"/>
+    </td>
+    <td width="50%" align="center">
+      <img src="https://github.com/user-attachments/assets/9cc877b4-097e-4eda-a001-b4af14620b70" alt="frontmatter tooltip 표시"/>
+    </td>
+  </tr>
+</table>
 
 **기술적 의사결정**
 - VSCode Extension API + TypeScript 기반, TreeDataProvider 패턴으로 lazy loading 및 캐시 무효화 일원화
@@ -42,11 +54,6 @@ Anthropic이 발표한 Claude Skills(SKILL.md 기반 작업별 지침 모음)는
 - `workspaceState`(프로젝트별)와 `globalState`(전역)를 분리해 상태 영속화하고 프로젝트 간 누수 차단
 - 토글 명령을 `enable`/`disable` 두 멱등 명령으로 분리해 빠른 연타에서도 race condition 방지
 - 외부 SKILL.md 컨텐츠를 신뢰하지 않도록 `MarkdownString.isTrusted = false`로 명시해 의도치 않은 명령 실행 차단
-
-<!-- frontmatter tooltip 스크린샷 -->
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/9cc877b4-097e-4eda-a001-b4af14620b70" alt="frontmatter tooltip 표시" width="720"/>
-</p>
 
 **의의**
 
