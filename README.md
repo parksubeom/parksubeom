@@ -16,12 +16,20 @@
 - **Complexity to Simplicity**: 복잡한 레거시와 프로세스를 단순화합니다. 3일 소요되던 배포 과정을 실시간 자동화 시스템으로 개선한 경험이 있습니다.
 - **Team Performance & DX**: 동료의 시간을 아끼는 것이 팀의 경쟁력이라 믿습니다. 개발자 친화적 가이드라인과 기술 교육을 통해 협업 병목을 해결합니다.
 - **User-First & Data-Driven**: 웹 접근성 컨설팅 경험을 기반으로 표준을 준수하며, 데이터와 피드백으로 가설을 검증하여 제품의 방향을 함께 고민합니다.
+- **Root-Cause Driven**: 표면 증상에 대증적으로 대응하지 않고 데이터 검증으로 가설을 깨가며 진짜 원인을 찾습니다. 잘못된 가설에서 출발한 방어 코드 3종을 데이터 dump 하나로 기각시키고 단 1줄의 lifecycle 수정으로 해결한 경험이 있습니다.
 
 ---
 
 ## 💼 Work Experience
 
-### **(주)에스앤씨랩** | Consultant & Developer (2024.07 - Present)
+### **(주)코드넛** | Frontend Developer (2026.03 - Present)
+- **매쓰캔버스 플랫폼 개발**: 비상교육과 협업하는 디지털 수학 교구 플랫폼(매쓰캔버스)의 Vue 3 + TypeScript 기반 프론트엔드 개발
+- **선생님/학생 뷰어 + 활동 리포트**: OX/선지/매쓰캔버스/돌림판/사다리 등 8종 슬라이드 컴포넌트와 학생 활동 리포트 시스템 구축
+- **Lifecycle/Reactivity 디버깅**: BE 응답 schema 모호성으로 보였던 OX 퀴즈 썸네일 mismatch 버그를 데이터 dump 검증으로 컴포넌트 재사용 stale state 문제로 재정의하고 `watch + immediate` 1줄로 차단
+- **Shared 레이어 회귀 차단**: 동일 sync 누수 패턴을 가진 Quiz 컴포넌트 5종(OX/PickText/SmartBank/LadderGame/SpinnerWheel) 12개 watcher에 readonly 가드 일괄 적용
+- **디자인 시스템 매핑**: Figma 시안을 Tailwind 토큰으로 매핑해 arbitrary value 거의 없이 유지보수 가능한 반응형 UI 구축
+
+### **(주)에스앤씨랩** | Consultant & Developer (2024.07 - 2026.02)
 - **협업 프로세스 혁신**: 소통 언어 표준화 및 가이드라인 배포로 평균 재진단 횟수 단축 (2.5회 → 0~1회)
 - **접근성 품질 인증(WA) 리딩**: 저축은행중앙회, 신협 등 대규모 프로젝트 심사 대응 및 1차 통과율 95% 달성
 - **사내 지식 베이스 구축**: WCAG 2.2/3.0 최신 명세 분석 및 비개발 직군 대상 기술 교육 주도 (질의 메일 40% 감소)
@@ -34,6 +42,16 @@
 ---
 
 ## 🛠 Featured Projects
+
+### **MathCanvas: 디지털 수학 교구 플랫폼** (2026 ~ , 코드넛)
+- Vue 3 Composition API + TypeScript 기반 선생님/학생 뷰어 및 활동 리포트 개발
+- 컴포넌트 재사용으로 인한 stale state 버그를 lifecycle 가설 검증으로 추적하고 최소 변경(1줄)으로 차단
+- shared/ui 레이어 변경 정책 정착 (git blame → 사용처 분석 → API 호환 → 시각 검증)
+
+### **Claude Code Skills Panel: VSCode 익스텐션**
+- VSCode 사이드 패널에서 Claude Code의 Skills(SKILL.md)를 트리뷰로 탐색하고 선택적으로 활성화/비활성화하는 도구
+- VSCode TreeView API + FileSystemWatcher로 `.claude/skills` 디렉토리 변경을 실시간 반영
+- 워크스페이스/글로벌 스코프 분리 + per-skill 활성 상태 영속화
 
 ### **A11yGym: 웹 접근성 학습 플랫폼**
 - Monaco Editor와 axe-core 기반 실시간 접근성 검증 시스템 구축
@@ -52,12 +70,13 @@
 ## 📚 Tech Stack
 
 ### Frameworks & Languages
-![TypeScript](https://img.shields.io/badge/typescript-%233178C6.svg?style=flat-square&logo=typescript&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23F7DF1E.svg?style=flat-square&logo=javascript&logoColor=black) ![React](https://img.shields.io/badge/react-%2361DAFB.svg?style=flat-square&logo=react&logoColor=black) ![Next.js](https://img.shields.io/badge/Next.js-black?style=flat-square&logo=next.js&logoColor=white)
+![TypeScript](https://img.shields.io/badge/typescript-%233178C6.svg?style=flat-square&logo=typescript&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23F7DF1E.svg?style=flat-square&logo=javascript&logoColor=black) ![React](https://img.shields.io/badge/react-%2361DAFB.svg?style=flat-square&logo=react&logoColor=black) ![Next.js](https://img.shields.io/badge/Next.js-black?style=flat-square&logo=next.js&logoColor=white) ![Vue.js](https://img.shields.io/badge/vuejs-%2335495e.svg?style=flat-square&logo=vuedotjs&logoColor=%234FC08D)
 
 ### State & Data
-![Zustand](https://img.shields.io/badge/Zustand-443E38?style=flat-square) ![TanStack Query](https://img.shields.io/badge/-Tanstack%20Query-FF4154?style=flat-square&logo=react-query&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
+![Zustand](https://img.shields.io/badge/Zustand-443E38?style=flat-square) ![Pinia](https://img.shields.io/badge/Pinia-FFD859?style=flat-square&logo=pinia&logoColor=black) ![TanStack Query](https://img.shields.io/badge/-Tanstack%20Query-FF4154?style=flat-square&logo=react-query&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
+
+### Styling
+![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=flat-square&logo=tailwind-css&logoColor=white)
 
 ### Quality & Tools
 ![Web Accessibility](https://img.shields.io/badge/Web_Accessibility-A11Y-blue?style=flat-square) ![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=flat-square&logo=figma&logoColor=white)
-
-
