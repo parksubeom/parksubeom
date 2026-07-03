@@ -9,6 +9,58 @@
 
 ## Featured Projects
 
+### Claude Skills Panel — VSCode / Cursor 확장 프로그램
+
+Open VSX Registry에 게시한 오픈소스 익스텐션입니다. VSCode, Cursor, VSCodium 등 Open VSX 호환 IDE에서 사용할 수 있습니다.
+
+<p align="center">
+  <a href="https://open-vsx.org/extension/parksubeom/claude-skills-panel">
+    <img src="https://img.shields.io/open-vsx/v/parksubeom/claude-skills-panel?style=for-the-badge&label=Open%20VSX&color=c160ef&logo=eclipseide&logoColor=white" alt="Open VSX Version"/>
+  </a>
+  <a href="https://open-vsx.org/extension/parksubeom/claude-skills-panel">
+    <img src="https://img.shields.io/open-vsx/dt/parksubeom/claude-skills-panel?style=for-the-badge&label=Downloads&color=20C20E" alt="Downloads"/>
+  </a>
+  <a href="https://open-vsx.org/extension/parksubeom/claude-skills-panel">
+    <img src="https://img.shields.io/badge/Install-Open%20VSX에서%20설치-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="Install"/>
+  </a>
+</p>
+
+> **▶ [Open VSX에서 바로 설치하기](https://open-vsx.org/extension/parksubeom/claude-skills-panel)** &nbsp;·&nbsp; Publisher: `parksubeom.claude-skills-panel`
+
+**해결한 문제**
+
+Anthropic이 발표한 Claude Skills(SKILL.md 기반 작업별 지침 모음)는 강력하지만, 어떤 스킬이 활성화돼 있는지 추적하려면 매번 `~/.claude/skills` 디렉토리를 직접 뒤져야 했습니다. 글로벌과 워크스페이스 스킬을 한눈에 보고 토글로 관리할 수 있는 도구를 직접 만들어 출시했습니다.
+
+**핵심 기능**
+- 워크스페이스(`.claude/skills`)와 글로벌(`~/.claude/skills`) 스킬을 하나의 사이드 패널에서 Tree View로 시각화
+- SKILL.md를 직접 편집하지 않고도 GUI에서 원클릭 활성/비활성 토글
+- frontmatter의 `name`/`description`을 트리뷰 tooltip에 자동 표시
+- 디바운스된 파일 워처로 외부 스킬 추가/삭제를 실시간 반영
+
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <img src="https://github.com/user-attachments/assets/1664892d-942e-4c51-80d8-93fc7d471c95" alt="스킬 토글 동작"/>
+    </td>
+    <td width="50%" align="center">
+      <img src="https://github.com/user-attachments/assets/9cc877b4-097e-4eda-a001-b4af14620b70" alt="frontmatter tooltip 표시"/>
+    </td>
+  </tr>
+</table>
+
+**기술적 의사결정**
+- VSCode Extension API + TypeScript 기반, TreeDataProvider 패턴으로 lazy loading 및 캐시 무효화 일원화
+- 초기 `fs.watch`의 Linux recursive 미지원 및 atomic save 미감지 문제를 chokidar로 마이그레이션하고 150ms debounce로 burst 이벤트 통합
+- `workspaceState`(프로젝트별)와 `globalState`(전역)를 분리해 상태 영속화하고 프로젝트 간 누수 차단
+- 토글 명령을 `enable`/`disable` 두 멱등 명령으로 분리해 빠른 연타에서도 race condition 방지
+- 외부 SKILL.md 컨텐츠를 신뢰하지 않도록 `MarkdownString.isTrusted = false`로 명시해 의도치 않은 명령 실행 차단
+
+**의의**
+
+AI 코딩 도구 생태계의 실사용 문제를 직접 정의하고 도구로 해결해 publisher(`parksubeom.claude-skills-panel`)로 정식 배포한 사례입니다.
+
+---
+
 ### claude-distill — Claude Code 세션 지식 자동 축적 CLI
 
 Claude Code 세션이 끝날 때마다 트랜스크립트를 분석해 배운 것(`knowledge.md`)과 실수·함정(`gotchas.md`)을 자동으로 누적하는 Hook 기반 피드백 루프입니다. "매일 새로 출근하는 알바생" 같던 AI가 다음 세션에는 지난 세션의 교훈을 알고 시작하도록, 같은 설명을 반복할 필요를 없앱니다.
@@ -86,58 +138,6 @@ Vue · React · Next.js 프론트엔드 공통 규칙과 Claude Code 스킬을 `
 **의의**
 
 반복되는 프론트엔드 셋업·컨벤션 정착 비용을 표준 패키지로 추출해, 사람이 읽어도 되고 Claude Code가 작업 전에 읽기도 하는 단일 출처로 만든 사례입니다.
-
----
-
-### Claude Skills Panel — VSCode / Cursor 확장 프로그램
-
-Open VSX Registry에 게시한 오픈소스 익스텐션입니다. VSCode, Cursor, VSCodium 등 Open VSX 호환 IDE에서 사용할 수 있습니다.
-
-<p align="center">
-  <a href="https://open-vsx.org/extension/parksubeom/claude-skills-panel">
-    <img src="https://img.shields.io/open-vsx/v/parksubeom/claude-skills-panel?style=for-the-badge&label=Open%20VSX&color=c160ef&logo=eclipseide&logoColor=white" alt="Open VSX Version"/>
-  </a>
-  <a href="https://open-vsx.org/extension/parksubeom/claude-skills-panel">
-    <img src="https://img.shields.io/open-vsx/dt/parksubeom/claude-skills-panel?style=for-the-badge&label=Downloads&color=20C20E" alt="Downloads"/>
-  </a>
-  <a href="https://open-vsx.org/extension/parksubeom/claude-skills-panel">
-    <img src="https://img.shields.io/badge/Install-Open%20VSX에서%20설치-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="Install"/>
-  </a>
-</p>
-
-> **▶ [Open VSX에서 바로 설치하기](https://open-vsx.org/extension/parksubeom/claude-skills-panel)** &nbsp;·&nbsp; Publisher: `parksubeom.claude-skills-panel`
-
-**해결한 문제**
-
-Anthropic이 발표한 Claude Skills(SKILL.md 기반 작업별 지침 모음)는 강력하지만, 어떤 스킬이 활성화돼 있는지 추적하려면 매번 `~/.claude/skills` 디렉토리를 직접 뒤져야 했습니다. 글로벌과 워크스페이스 스킬을 한눈에 보고 토글로 관리할 수 있는 도구를 직접 만들어 출시했습니다.
-
-**핵심 기능**
-- 워크스페이스(`.claude/skills`)와 글로벌(`~/.claude/skills`) 스킬을 하나의 사이드 패널에서 Tree View로 시각화
-- SKILL.md를 직접 편집하지 않고도 GUI에서 원클릭 활성/비활성 토글
-- frontmatter의 `name`/`description`을 트리뷰 tooltip에 자동 표시
-- 디바운스된 파일 워처로 외부 스킬 추가/삭제를 실시간 반영
-
-<table>
-  <tr>
-    <td width="50%" align="center">
-      <img src="https://github.com/user-attachments/assets/1664892d-942e-4c51-80d8-93fc7d471c95" alt="스킬 토글 동작"/>
-    </td>
-    <td width="50%" align="center">
-      <img src="https://github.com/user-attachments/assets/9cc877b4-097e-4eda-a001-b4af14620b70" alt="frontmatter tooltip 표시"/>
-    </td>
-  </tr>
-</table>
-
-**기술적 의사결정**
-- VSCode Extension API + TypeScript 기반, TreeDataProvider 패턴으로 lazy loading 및 캐시 무효화 일원화
-- 초기 `fs.watch`의 Linux recursive 미지원 및 atomic save 미감지 문제를 chokidar로 마이그레이션하고 150ms debounce로 burst 이벤트 통합
-- `workspaceState`(프로젝트별)와 `globalState`(전역)를 분리해 상태 영속화하고 프로젝트 간 누수 차단
-- 토글 명령을 `enable`/`disable` 두 멱등 명령으로 분리해 빠른 연타에서도 race condition 방지
-- 외부 SKILL.md 컨텐츠를 신뢰하지 않도록 `MarkdownString.isTrusted = false`로 명시해 의도치 않은 명령 실행 차단
-
-**의의**
-
-AI 코딩 도구 생태계의 실사용 문제를 직접 정의하고 도구로 해결해 publisher(`parksubeom.claude-skills-panel`)로 정식 배포한 사례입니다.
 
 ---
 
