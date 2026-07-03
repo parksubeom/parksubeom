@@ -9,6 +9,46 @@
 
 ## Featured Projects
 
+### bumpist-code — 프론트엔드 표준 배포 CLI (Claude Code 스킬 허브)
+
+Vue · React · Next.js 프론트엔드 공통 규칙과 Claude Code 스킬을 `npx` 한 줄로 프로젝트에 배선하는 오픈소스 CLI입니다. npm에 semver로 배포해 매번 같은 퀄리티로 작업하도록 표준을 고정합니다.
+
+<p align="center">
+  <a href="https://www.npmjs.com/package/bumpist-code">
+    <img src="https://img.shields.io/npm/v/bumpist-code?style=for-the-badge&label=npm&color=6d6afe&logo=npm&logoColor=white" alt="npm Version"/>
+  </a>
+  <a href="https://www.npmjs.com/package/bumpist-code">
+    <img src="https://img.shields.io/npm/dt/bumpist-code?style=for-the-badge&label=Downloads&color=20C20E&logo=npm&logoColor=white" alt="npm Downloads"/>
+  </a>
+  <a href="https://github.com/parksubeom/bumpist-fe-guide">
+    <img src="https://img.shields.io/badge/Repo-bumpist--fe--guide-181717?style=for-the-badge&logo=github&logoColor=white" alt="Repository"/>
+  </a>
+</p>
+
+> **▶ [npm에서 보기](https://www.npmjs.com/package/bumpist-code)** &nbsp;·&nbsp; 설치: `npx bumpist-code@latest init`
+
+**해결한 문제**
+
+프로젝트마다 폴더 구조·컴포넌트 작성법·테스트·커밋 컨벤션이 제각각이 되고, AI 코딩 도구에 매번 같은 맥락을 다시 알려줘야 했습니다. 프론트엔드 작업 표준(규칙)과 그 규칙을 실제 작업으로 옮겨 주는 Claude Code 스킬을 한 벌로 묶어, `npx` 한 줄로 어떤 프로젝트에나 복사·배선되게 만들었습니다.
+
+**핵심 기능**
+- `npx bumpist-code init` 한 줄로 규칙·스킬·문서를 프로젝트 `.claude/`에 복사하고 `CLAUDE.md`까지 자동 배선
+- `package.json`으로 프레임워크(Vue/React/Next.js) 자동 감지 후 프레임워크별 규칙 선택 적용
+- 작업 유형을 판별해 알맞은 규칙·스킬로 안내하는 14종 스킬(plan · create-slice · gen-api-types · write-test · prepare-pr 등)
+- 뉴트럴·플랫·브랜드 컬러 1개·접근성(WCAG AA) 기반 디자인 기본선 + Feature-Sliced Design 아키텍처 내장
+
+**기술적 의사결정**
+- 서브모듈이 아닌 **복사 배포** 방식으로, 받은 시점의 버전이 프로젝트에 고정되고 원본 repo에 종속되지 않도록 설계
+- npm **semver**(MAJOR: 깨지는 변경 / MINOR: 규칙·스킬 추가 / PATCH: 문구 수정)로 배포해 프로젝트별로 다른 표준 버전을 독립적으로 운용
+- `.claude/.guide-version`에 받은 버전을 기록해 "이 프로젝트가 어느 표준 버전인지" 추적 가능
+- 디자인 기본선은 자체 규칙으로 잡되, 심화 craft는 `impeccable` 스킬과 페어링하도록 경계를 명확히 분리
+
+**의의**
+
+반복되는 프론트엔드 셋업·컨벤션 정착 비용을 표준 패키지로 추출해, 사람이 읽어도 되고 Claude Code가 작업 전에 읽기도 하는 단일 출처로 만든 사례입니다.
+
+---
+
 ### Claude Skills Panel — VSCode / Cursor 확장 프로그램
 
 Open VSX Registry에 게시한 오픈소스 익스텐션입니다. VSCode, Cursor, VSCodium 등 Open VSX 호환 IDE에서 사용할 수 있습니다.
