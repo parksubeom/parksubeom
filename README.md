@@ -9,6 +9,46 @@
 
 ## Featured Projects
 
+### claude-distill — Claude Code 세션 지식 자동 축적 CLI
+
+Claude Code 세션이 끝날 때마다 트랜스크립트를 분석해 배운 것(`knowledge.md`)과 실수·함정(`gotchas.md`)을 자동으로 누적하는 Hook 기반 피드백 루프입니다. "매일 새로 출근하는 알바생" 같던 AI가 다음 세션에는 지난 세션의 교훈을 알고 시작하도록, 같은 설명을 반복할 필요를 없앱니다.
+
+<p align="center">
+  <a href="https://www.npmjs.com/package/claude-distill">
+    <img src="https://img.shields.io/npm/v/claude-distill?style=for-the-badge&label=npm&color=c160ef&logo=npm&logoColor=white" alt="npm Version"/>
+  </a>
+  <a href="https://www.npmjs.com/package/claude-distill">
+    <img src="https://img.shields.io/npm/dt/claude-distill?style=for-the-badge&label=Downloads&color=20C20E&logo=npm&logoColor=white" alt="npm Downloads"/>
+  </a>
+  <a href="https://github.com/parksubeom/claude-distill">
+    <img src="https://img.shields.io/badge/Repo-claude--distill-181717?style=for-the-badge&logo=github&logoColor=white" alt="Repository"/>
+  </a>
+</p>
+
+> **▶ [npm에서 보기](https://www.npmjs.com/package/claude-distill)** &nbsp;·&nbsp; 설치: `npm install -g claude-distill && claude-distill init`
+
+**해결한 문제**
+
+Claude Code는 세션이 바뀌면 지난 대화에서 발견한 환경 특성·API 함정·의사결정을 기억하지 못해, 매번 같은 맥락을 다시 설명해야 했습니다. 세션 종료 시 트랜스크립트를 분석해 재사용할 지식과 반복하면 안 될 실수를 markdown으로 자동 축적하고, 다음 세션이 이를 참조하게 만들었습니다.
+
+**핵심 기능**
+- Stop hook으로 세션 종료 시 자동 분석 — `knowledge.md`(판례)·`gotchas.md`(사고) 두 파일에 누적
+- 발견한 내용을 11종 카테고리(trade-off 결정·환경 특성·API 함정·동시성 이슈 등)로 분류
+- 트랜스크립트에서 한글 비율을 감지해 한/영 자동 전환(`CLAUDE_DISTILL_LANG`로 강제 가능)
+- 결과가 순수 markdown이라 사용자가 직접 편집·삭제 가능하고, 삭제한 항목은 다음 세션에 주입되지 않음
+
+**기술적 의사결정**
+- **다단계 게이트**로 비용 최적화: 휴리스틱(무료) → Haiku 단일 토큰 yes/no 판정 → dedup 해시 → 재귀 가드 순으로 걸러, 세션의 약 90%가 값비싼 Sonnet 분석 전에 종료 — 본 추출 호출 **~10× 컷**
+- 대부분 세션은 **~$0**, 게이트를 통과한 세션만 **~$0.10**(Sonnet 입력 ~20K·출력 ~2K 토큰) 수준으로 운영비 통제
+- **프라이버시 우선** — 제3자 서버 없이 로컬 머신 → Anthropic API 직결, 트랜스크립트는 dedup용 SHA-256 해시(12자)만 저장하고 원문은 디스크에 쓰지 않음
+- **의존성 0 · 50KB** 풋프린트로 GitHub에서 코드 전량 감사 가능, hook 삭제만으로 언제든 비활성화
+
+**의의**
+
+AI 코딩 도구의 "세션 간 기억 상실" 문제를 Hook + 저비용 LLM 게이트로 직접 정의하고 해결해, 로컬에서 안전하게 동작하는 지식 축적 루프로 npm에 배포한 사례입니다.
+
+---
+
 ### bumpist-code — 프론트엔드 표준 배포 CLI (Claude Code 스킬 허브)
 
 Vue · React · Next.js 프론트엔드 공통 규칙과 Claude Code 스킬을 `npx` 한 줄로 프로젝트에 배선하는 오픈소스 CLI입니다. npm에 semver로 배포해 매번 같은 퀄리티로 작업하도록 표준을 고정합니다.
