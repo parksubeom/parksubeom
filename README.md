@@ -194,20 +194,6 @@ Vue · React · Next.js 프론트엔드 공통 규칙과 Claude Code 스킬을 `
 
 ---
 
-### A11yGym — 웹 접근성 학습 플랫폼
-
-- Monaco Editor와 axe-core 기반 실시간 접근성 검증 시스템 구축
-- 3단계 비동기 방어 메커니즘으로 검사 안정성 99% 확보 및 5ms 이내 즉각적인 피드백 루프 구현
-
----
-
-### AI-Native Portfolio
-
-- AI 환각 제어 파이프라인(Context Injection)을 통한 고품질 FSD 아키텍처 구현
-- ISR 전략 도입으로 SSR 대비 응답 속도 90% 개선(500ms → 50ms 미만)
-
----
-
 ### Hanghae-Plus Archiving
 
 - 4-Layer Fallback 알고리즘 설계를 통한 데이터 유실률 0% 및 정합성 95% 달성
